@@ -46,8 +46,8 @@ These instructions will help you get a copy of the project up and running on you
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone [https://github.com/yourusername/your-repo.git](https://github.com/bharat495/DevOps)
+   cd DevOps
    ```
 
 2. Install server dependencies:
