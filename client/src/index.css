@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Serif:ital,opsz,wght@1,8..144,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #13072E !important;
+  /* background-image: linear-gradient(to right bottom, #13072e, #1b1042, #261657, #321c6c, #3f2182); */
+
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+@keyframes changeText {
+  0%, 25% {
+    opacity: 0;
+  }
+  25%, 50% {
+    opacity: 1;
+  }
+  75%, 100% {
+    opacity: 0;
+  }
+}
+
+.animation-container {
+  width: 50%;
+}
+
+
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2)
+  );
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 20px #000;
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.card h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.card p {
+  color: #fff;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.card button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  color: #fff;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+
+
