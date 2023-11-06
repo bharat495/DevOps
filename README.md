@@ -1,4 +1,4 @@
-#Holla everyone Bharat Here!!!
+# Holla everyone Bharat Here!!!
 # MERN Stack DevOps Club Project
 
 This project was developed for the DevOps club at APSIT (A. P. Shah Institute of Technology). It's a full-stack web application built with the MERN stack (MongoDB, Express, React, and Node.js). 
